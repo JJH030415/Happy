@@ -1,5 +1,5 @@
 #include <stdio.h>
-// data ±æÀÌ  !
+// data ê¸¸ì´  !
 //int GetStringLength(char data[]) { 
 //	int count =0;
 //	while (data[count]){
@@ -19,19 +19,19 @@
 			   
 
 
-//¹®ÀÚ ÇÕÄ¡±â !
+//ë¬¸ì í•©ì¹˜ê¸° !
 //	void main() 
 //{ 
 //	char data[10]= {'A','B','C','D'}; 
 //	char result[10]; 
-//	strcpy(result,data);    // ´ëÀÔ  
-//	strcat(result,"EFG");   // ºÙÀÓ 
+//	strcpy(result,data);    // ëŒ€ì…  
+//	strcat(result,"EFG");   // ë¶™ì„ 
 //	printf("%s+EFG=%s\n", data, result);
 //}   
 
 
 
-//  ¿À¸§Â÷¼øÁ¤·Ä   ! 
+//  ì˜¤ë¦„ì°¨ìˆœì •ë ¬ 
 //	void main()
 //{
 //	int a,b,temp=0;
@@ -49,7 +49,7 @@
 //	}
 //	}
 //	}
-//	printf("¿À¸§Â÷¼øÁ¤·ÄÈÄ: ");
+//	printf("ì˜¤ë¦„ì°¨ìˆœì •ë ¬í›„: ");
 //		
 //	for(i = 0; i < 6; i++){
 //	printf("%d ",num[i]);
@@ -59,13 +59,13 @@
 
 	
 
-// ¿À¸§Â÷¼ø ÄÚµå (221014)	 
+// ì˜¤ë¦„ì°¨ìˆœ ì½”ë“œ (221014)	 
 //void main() 
 //	{
 //	int a,b,temp; 
 //	int num[5]={5,2,3,4,1}; 
 	
-	// ¿À¸§Â÷¼ø ¹è¿­ 
+	// ì˜¤ë¦„ì°¨ìˆœ ë°°ì—´ 
 //	for(a=0;a<5;a++) 
 //	{ 
 //		for(b=0;b<5;b++) 
@@ -78,7 +78,7 @@
 //			}
 //		}
 //	}
-//	printf("¿À¸§Â÷¼øÁ¤·ÄÈÄ"); 
+//	printf("ì˜¤ë¦„ì°¨ìˆœì •ë ¬í›„"); 
 //	for(a=0;a<5;a++) {
 //		printf("%d ", num[a]);
 //	} 
@@ -90,28 +90,28 @@
 
 
 
-// Æ÷ÀÎÅÍ  
+// í¬ì¸í„°  
 //	void main()        //00000000002FE16
 //{ 
 //	short birthday;
 //	short *ptr;
 //	ptr=&birthday;
-//	printf("birthday º¯¼öÀÇ ÁÖ¼Ò´Â %pÀÔ´Ï´Ù.\n",ptr); 
+//	printf("birthday ë³€ìˆ˜ì˜ ì£¼ì†ŒëŠ” %pì…ë‹ˆë‹¤.\n",ptr); 
 //} 
 
-// Æ÷ÀÎÅÍ  
+// í¬ì¸í„°  
 //	void main()  //00000000FFFFFE1C
 //	{
 //	short birthday; 
 //	short ptr;
 //	ptr=&birthday;
-//	printf("birthday º¯¼öÀÇ ÁÖ¼Ò´Â %pÀÔ´Ï´Ù.\n",ptr);
+//	printf("birthday ë³€ìˆ˜ì˜ ì£¼ì†ŒëŠ” %pì…ë‹ˆë‹¤.\n",ptr);
 //	}
 
 
 
 
-// Æ÷ÀÎÅÍ(3)  
+// í¬ì¸í„°(3)  
 //	void main() 
 //{
 //	int a=20,b=30; 
@@ -122,25 +122,25 @@
 // 	 return *a+*b;
 //	 }	
 
- //Æ÷ÀÎÅÍ(4) 
+ //í¬ì¸í„°(4) 
 //	void main() 
 //{
 //	int num=10; 
 //	int*ptr; 
 //	ptr = &num; 
 //	
-//	printf("num°ªÀº %d\n",num); 
-//	printf("num°ªÀº %p\n",num);
-//	printf("numÁÖ¼Ò°ªÀºÀº %d\n",&num);
-//	printf("numÁÖ¼Ò°ª°ªÀº %p\n",&num);
-//	printf("numÁÖ¼Ò°ª°ªÀº %x\n",&num);
+//	printf("numê°’ì€ %d\n",num); 
+//	printf("numê°’ì€ %p\n",num);
+//	printf("numì£¼ì†Œê°’ì€ì€ %d\n",&num);
+//	printf("numì£¼ì†Œê°’ê°’ì€ %p\n",&num);
+//	printf("numì£¼ì†Œê°’ê°’ì€ %x\n",&num);
 //
 //
-//	printf("ptr°ª%d\n",ptr); 
-//	pritnf("ptrÁÖ¼Ò°ªÀÌ °¡¸®Å°´Â ½ÇÁ¦°ª%d\n",*ptr);
+//	printf("ptrê°’%d\n",ptr); 
+//	pritnf("ptrì£¼ì†Œê°’ì´ ê°€ë¦¬í‚¤ëŠ” ì‹¤ì œê°’%d\n",*ptr);
 //}
 
-  //Æ÷ÀÎÅÍ(5) 
+  //í¬ì¸í„°(5) 
 //	void main()
 //{
 //	int a,b;  
@@ -155,7 +155,7 @@
 //	}
 //}
 
-//Æ÷ÀÎÅÍ(6) 
+//í¬ì¸í„°(6) 
 //	void main() 
 //{ 
 //	short data=3;
@@ -171,7 +171,7 @@
 	
 	
 	
-	//Æ÷ÀÎÅÍ(7) 
+	//í¬ì¸í„°(7) 
 //		void swap(int **a, int **b)
 //{	
 //	 
@@ -195,13 +195,13 @@
 
 
 
- // Æäí¸®¾ó ¸¸µå´Â ÄÚµå  
+ // í˜Âç£ï¿½ ë§Œë“œëŠ” ì½”ë“œ  
 //	void main() 
 //{
 //	int num,a; 
 //	int result =1; 
 //	
-//	printf("Á¤¼öÀÔ·Â:"); 
+//	printf("ì •ìˆ˜ì…ë ¥:"); 
 //	scanf("%d",&num); 
 //	
 //	for(a=1;a<=num;a++) 
@@ -225,7 +225,7 @@
 //	num[a] = num[b]; 
 //	num[b] = temp; 
 //	}
-//	printf("¿À¸§Â÷¼ø Š·ÄÀÔ´Ï´Ù") ; 
+//	printf("ì˜¤ë¦„ì°¨ìˆœÂŠë ¬ì…ë‹ˆë‹¤") ; 
 //}
 
 	void main() 
