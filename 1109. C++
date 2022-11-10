@@ -1,28 +1,28 @@
 #include <iostream>
 using namespace std; 
 
-//int main()     //1¹ø ¹®Á¦ 
+//int main()     //1ë²ˆ ë¬¸ì œ 
 //{
 //	int age = 5;
-//	cout << "Á¦ ³ªÀÌ´Â" <<age<<"»ìÀÔ´Ï´Ù" << endl; 
+//	cout << "ì œ ë‚˜ì´ëŠ”" <<age<<"ì‚´ìž…ë‹ˆë‹¤" << endl; 
 //} 
 
 
 
-//int main(void)     //2¹ø ¹®Á¦  
+//int main(void)     //2ë²ˆ ë¬¸ì œ  
 //{
 //	int num; 
 //	for(num=1;num<=100;num++)
 //	{
 //		if (num%3==0&&num%5==0)
-//		cout<<"3°ú5ÀÇ °ø¹è¼öµéÀÔ´Ï´Ù"<<num;
+//		cout<<"3ê³¼5ì˜ ê³µë°°ìˆ˜ë“¤ìž…ë‹ˆë‹¤"<<num;
 //	}
 //	return 0;
 //}   
 
 
 
-//int main()   // 3¹ø ¹®Á¦ 
+//int main()   // 3ë²ˆ ë¬¸ì œ 
 //{
 //	int a = 5; 
 //	for(int i=1; i<=5; i++,a--) 
@@ -43,7 +43,7 @@ using namespace std;
 
 
 
-//int main()  //4¹ø¹®Á¦  
+//int main()  //4ë²ˆë¬¸ì œ  
 //int main()  
 //{
 //    int n,m;
